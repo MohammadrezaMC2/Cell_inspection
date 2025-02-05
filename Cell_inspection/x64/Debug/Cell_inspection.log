@@ -1,0 +1,3 @@
+﻿  Cell_inspection.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Cell_inspection.vcxproj -> D:\Programming\C++\VS\Cell_inspection\Cell_inspection\x64\Debug\Cell_inspection.exe
