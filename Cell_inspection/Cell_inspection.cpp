@@ -1,21 +1,13 @@
+#include <cstdio>
+#include <vector>
+#include "spline.h"
 
-#include <opencv2/core.hpp>
-#include <opencv2/imgcodecs.hpp>
-#include <opencv2/highgui.hpp>
-#include <iostream>
-#include <filesystem>
-using namespace cv;
+int main(int, char**) {
+	std::vector<double> X = { 0.1, 0.4, 1.2, 1.8, 2.0 }; // must be increasing
+	std::vector<double> Y = { 0.1, 0.7, 0.6, 1.1, 0.9 };
 
-int main() {
-    std::string path = "F:/Maryam_malekpour.jpg";
+	tk::spline s(X, Y);
+	double x = 1.5, y = s(x), deriv = s.deriv(1, x);
 
-    cv::Mat img = cv::imread(path);
-    if (img.empty()) {
-        std::cerr << "Error: Could not open or find the image!" << std::endl;
-        return -1;  // Exit the program to prevent a crash
-    }
-    namedWindow("my first program", WINDOW_AUTOSIZE);
-    cv::imshow("my first program", img);
-    cv::waitKey(0);
-    return 0;
+	printf("spline at %f is %f with derivative %f\n", x, y, deriv);
 }

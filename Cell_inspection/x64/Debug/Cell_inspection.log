@@ -1,3 +1,43 @@
 ﻿  Cell_inspection.cpp
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(45,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'Cell_inspection.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(46,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'Cell_inspection.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(646,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Cell_inspection.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(946,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'Cell_inspection.cpp')
+  
+  StructureTensorAnalysis.cpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(45,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'StructureTensorAnalysis.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(46,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'StructureTensorAnalysis.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(646,31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'StructureTensorAnalysis.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\spline.h(946,9): warning C4068: unknown pragma 'GCC'
+  (compiling source file 'StructureTensorAnalysis.cpp')
+  
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,31): warning C4267: '=': conversion from 'size_t' to '_Tp', possible loss of data
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,31): warning C4267:         with
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,31): warning C4267:         [
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,31): warning C4267:             _Tp=int
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(50,31): warning C4267:         ]
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,23): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,31): warning C4267: '=': conversion from 'size_t' to '_Tp', possible loss of data
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,31): warning C4267:         with
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,31): warning C4267:         [
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,31): warning C4267:             _Tp=int
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(53,31): warning C4267:         ]
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(61,39): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+D:\Programming\C++\VS\Cell_inspection\Cell_inspection\Cell_inspection\StructureTensorAnalysis.cpp(65,1): warning C4715: 'StructureTensorAnalysis::computeGradients': not all control paths return a value
   Cell_inspection.vcxproj -> D:\Programming\C++\VS\Cell_inspection\Cell_inspection\x64\Debug\Cell_inspection.exe

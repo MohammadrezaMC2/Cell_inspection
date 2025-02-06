@@ -2,8 +2,21 @@
 #include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include <iostream>
+#include <filesystem>
+#include <fstream>
+#include "spline.h"
 class StructureTensorAnalysis
 {
+private:
+    bool checkExistence(const std::string& filename)
+    {
+        std::ifstream f;
+        f.open(filename);
+
+        return f.is_open();
+    }
 public:
     enum class GRADIENT_METHOD {
         CUBIC_SPLINE,
