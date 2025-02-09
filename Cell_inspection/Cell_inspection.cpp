@@ -1,13 +1,33 @@
 #include <cstdio>
 #include <vector>
-#include "spline.h"
+#include <opencv2/core.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/imgproc.hpp>
+#include "StructureTensorAnalysis.h"
 
 int main(int, char**) {
-	std::vector<double> X = { 0.1, 0.4, 1.2, 1.8, 2.0 }; // must be increasing
-	std::vector<double> Y = { 0.1, 0.7, 0.6, 1.1, 0.9 };
 
-	tk::spline s(X, Y);
-	double x = 1.5, y = s(x), deriv = s.deriv(1, x);
+	std::string Path = "C:\\Users\\Sepehr\\Desktop\\Maryam_malekpour.jpg";
 
-	printf("spline at %f is %f with derivative %f\n", x, y, deriv);
+	cv::Mat img = cv::imread(Path, cv::IMREAD_GRAYSCALE);
+	if (img.empty()) {
+		std::cerr << "Error: Could not open or find the image!" << std::endl;
+	}
+
+	std::shared_ptr<StructureTensorAnalysis> structureTensorAnalysis = std::make_shared<StructureTensorAnalysis>(img, StructureTensorAnalysis::GRADIENT_METHOD::FOURIER, 2);
+
+	cv::Mat Energy = structureTensorAnalysis->getEnegry();
+
+
+	cv::imshow("Energy", Energy);
+
+	// Wait for a key press indefinitely or for a specified delay (0 means infinite wait)
+	cv::waitKey(0);
+
+	// Destroy the window (optional)
+	cv::destroyAllWindows();
+
+	
+
 }

@@ -21,7 +21,7 @@
     <ClCompile Include="StructureTensorAnalysis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MathOperation.cpp">
+    <ClCompile Include="GradientCalculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClInclude Include="spline.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MathOperation.h">
+    <ClInclude Include="GradientCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

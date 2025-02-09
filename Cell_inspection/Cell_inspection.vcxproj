@@ -133,11 +133,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cell_inspection.cpp" />
-    <ClCompile Include="MathOperation.cpp" />
+    <ClCompile Include="GradientCalculator.cpp" />
     <ClCompile Include="StructureTensorAnalysis.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MathOperation.h" />
+    <ClInclude Include="GradientCalculator.h" />
     <ClInclude Include="spline.h" />
     <ClInclude Include="StructureTensorAnalysis.h" />
   </ItemGroup>
